@@ -84,7 +84,7 @@ export default function CreateAccount(){
     } catch(e) {
       // 계정생성이 실패 (계정이 이미 존재하거나 패스워드가 유효하지 않을 경우) 에러
       console.log(e);
-      // setError
+      //setError[]
     }
     finally{
       setLoading(false);
